@@ -1,0 +1,56 @@
+﻿# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Node
+node_modules/
+
+# Point-E models (too large for GitHub)
+point-e/
+*/point_e_model_cache/
+*/backend/point_e_model_cache/
+
+# Build outputs
+dist/
+build/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment
+.env
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+long_term_memory/
+projects/
+temp/
+*.stl
+*.ply
+*.obj
+*.npz
+
+# Test artifacts
+trace.txt
+check_*.py
+debug_*.py
+test_*.py
+*_test.py
+verify_*.py
+read_*.py
+grep_*.py
+
+# Git
+.git/index.lock
